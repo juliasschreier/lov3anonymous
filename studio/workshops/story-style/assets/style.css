@@ -1,0 +1,121 @@
+/* GENERAL STYLES */
+/* ==================================== */
+
+body {
+    background-color: tomato;
+    color: bisque;
+    padding: 36px;
+    font-size: 20px;
+
+}
+
+::selection {
+    color: yellow;
+    text-shadow:
+    0 0 10px yellow;
+}
+
+.piza1 {
+ height: 400px;
+ width: auto;
+ display: block;
+ margin-top: -50px;
+ margin-left: auto;
+ margin-right: auto;
+ animation: rotation 15s infinite linear;
+
+
+}
+
+.piza2 {
+    height: 400px;
+    width: auto;
+    display: block;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.piza3 {
+    height: 400px;
+    width: auto;
+    display: block;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.piza4 {
+    height: 400px;
+    width: auto;
+    display: block;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.piza5 {
+    height: 400px;
+    width: auto;
+    display: block;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    
+}
+
+/* NAV */
+/* ==================================== */
+
+.nav {
+    margin-bottom: 30px;
+    user-select: none;
+    text-align: center;
+}
+
+.nav-link {
+    background-color: bisque;
+    color: tomato;
+    padding: 5px;
+    border-radius: 3px;
+    margin-right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-link:hover {
+    background-color: yellow;
+    box-shadow: 0 0 10px yellow,
+}
+
+
+/* MAIN */
+/* ==================================== */
+
+.main {
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.home .main {
+    font-size: 9rem;
+    font-weight: 900;
+    text-align: center;
+
+}
+
